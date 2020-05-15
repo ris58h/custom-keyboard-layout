@@ -1,0 +1,2 @@
+rootProject.name='custom-keyboard-layout'
+include ':app'
