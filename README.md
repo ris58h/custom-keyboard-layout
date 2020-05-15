@@ -1,28 +1,16 @@
+This is a skeleton project for an Android application to customize an external keyboard layout without rooting or 3rd-party keyboard installation.
 
-# Example of how to make CapsLock key (scancode 58) produce ESCAPE keycode:
-# map key 58  ESCAPE
+It's a skeleton, so there is no apk or Play Store link. You'll have to build it install it on a device yourself.
 
-# Default scancode to keycode mapping can be found at
-# https://android.googlesource.com/platform/frameworks/base/+/master/data/keyboards/Generic.kl
-# Some scancode to keycode mapping from Generic.kl:
-# key 29  CTRL_LEFT
-# key 56  ALT_LEFT
-# key 58  CAPS_LOCK
-# key 97  CTRL_RIGHT
-# key 99  SYSRQ
-# key 100 ALT_RIGHT
-# key 125 META_LEFT
-# key 126 META_RIGHT
-# This is KCM (not KL) file, so 'map' directive must be added before the statements above to make them work here.
+# External keyboard customization
+There are several ways to customize an external keyboard on Android:
+1. Install 3-rd party keyboard which allows customization.
+2. Add/modify [Key Layout Files](https://source.android.com/devices/input/key-layout-files) and [Key Character Map Files](https://source.android.com/devices/input/key-character-map-files) (requires root access).
+3. Install an application which provides [additional keyboard layouts](https://developer.android.com/reference/android/hardware/input/InputManager#ACTION_QUERY_KEYBOARD_LAYOUTS).
+This project aims on the 3-rd option.
 
-
-# Example of how to add a ctrl+shift+3 shortcut for screenshot:
-# key 3 {
-#     label:                              '3'
-#     base:                               '3'
-#     shift:                              '#'
-#     ctrl+shift:                         fallback SYSRQ
-# }
-
-# Keycodes can be found at
-# https://android.googlesource.com/platform/frameworks/native/+/master/include/android/keycodes.h
+# The Way
+1. Clone the project
+2. Customize keyboard layouts.
+3. Build the app and install it on your device.
+4. Use your custom layout.
