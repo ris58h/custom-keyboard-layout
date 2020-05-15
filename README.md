@@ -5,7 +5,7 @@ It's a skeleton, so there is no apk or Play Store link. You'll have to build it 
 # External keyboard customization
 There are several ways to customize an external keyboard on Android:
 1. Install 3-rd party keyboard which allows customization.
-2. Add/modify [Key Layout Files](https://source.android.com/devices/input/key-layout-files) and [Key Character Map Files](https://source.android.com/devices/input/key-character-map-files) (requires root access).
+2. Add/modify [Key Layout Files](https://source.android.com/devices/input/key-layout-files) or [Key Character Map Files](https://source.android.com/devices/input/key-character-map-files) on a device with root access.
 3. Install an application which provides [additional keyboard layouts](https://developer.android.com/reference/android/hardware/input/InputManager#ACTION_QUERY_KEYBOARD_LAYOUTS).
 This project aims on the 3-rd option.
 
