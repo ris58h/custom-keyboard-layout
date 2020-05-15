@@ -1,1 +1,23 @@
 type OVERLAY
+
+map key 58  ESCAPE
+
+map key 29  META_LEFT
+map key 56  CTRL_LEFT
+map key 125 ALT_LEFT
+
+map key 99  ALT_RIGHT
+map key 100 CTRL_RIGHT
+
+key TAB {
+    label:                              '\t'
+    base:                               '\t'
+    ctrl:                               fallback APP_SWITCH
+}
+
+key 3 {
+    label:                              '3'
+    base:                               '3'
+    shift:                              '#'
+    ctrl+shift:                         fallback SYSRQ
+}
