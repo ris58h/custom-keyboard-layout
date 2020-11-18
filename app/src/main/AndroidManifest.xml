@@ -13,4 +13,6 @@
                 android:resource="@xml/keyboard_layouts" />
         </receiver>
     </application>
+
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
 </manifest>
