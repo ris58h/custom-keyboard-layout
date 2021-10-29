@@ -16,3 +16,6 @@ This project aims on the 3-rd option.
 2. Customize keyboard layouts.
 3. Build the app and install it on your device.
 4. Use your custom layout.
+
+# Example
+You can find an example [here](https://github.com/ris58h/custom-keyboard-layout/tree/Vendor_17ef_Product_6048/app/src/main/res/raw). There are two ```kcm``` files to make MacOS like layout for ThinkPad Compact Bluetooth Keyboard (English and Russian).
