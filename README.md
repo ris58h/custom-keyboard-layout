@@ -18,4 +18,4 @@ This project aims on the 3-rd option.
 4. Use your custom layout.
 
 # Example
-You can find an example [here](https://github.com/ris58h/custom-keyboard-layout/tree/Vendor_17ef_Product_6048/app/src/main/res/raw). There are two ```kcm``` files to make MacOS like layout for ThinkPad Compact Bluetooth Keyboard (English and Russian). Default ```kcm``` for different languages can be found [here](https://android.googlesource.com/platform/frameworks/base/+/master/packages/InputDevices/res/raw).
+You can find an example [here](https://github.com/ris58h/custom-keyboard-layout/tree/Vendor_17ef_Product_6048/app/src/main/res/raw). There are two ```kcm``` files to make MacOS like layout for ThinkPad Compact Bluetooth Keyboard (English and Russian). Default ```kcm``` files for different languages can be found [here](https://android.googlesource.com/platform/frameworks/base/+/master/packages/InputDevices/res/raw).
