@@ -1,6 +1,6 @@
 This is a skeleton project for an Android application to customize an external keyboard layout without rooting or 3rd-party keyboard installation.
 
-It's a skeleton, so there is no apk or Play Store link. You'll have to build it and install it on a device yourself.
+It's a skeleton, so there is no apk or Play Store link. You'll have to build it and install resulting app on a device manually.
 
 **Note**: if you don't want to build the app take a look at [ExKeyMo](https://exkeymo.herokuapp.com/). It will build the app for you, but it's limited to one layout only.
 
