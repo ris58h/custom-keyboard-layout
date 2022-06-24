@@ -2,7 +2,7 @@ This is a skeleton project for an Android application to customize an external k
 
 It's a skeleton, so there is no apk or Play Store link. You'll have to build it and install resulting app on a device manually.
 
-**Note**: if you don't want to build the app take a look at [ExKeyMo](https://exkeymo.herokuapp.com/). It will build the app for you, but it's limited to one layout only.
+**Note**: if you don't want to build the app take a look at [ExKeyMo](https://exkeymo.herokuapp.com/) ([source code](https://github.com/ris58h/exkeymo-web)). It will build the app for you, but it's limited to one layout only.
 
 # External keyboard customization
 There are several ways to customize an external keyboard on Android:
