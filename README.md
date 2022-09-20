@@ -2,7 +2,7 @@ This is a skeleton project for an Android application to customize an external k
 
 It's a skeleton, so there is no apk or Play Store link. You'll have to build it and install resulting app on a device manually.
 
-**Note**: if you don't want to build the app take a look at [ExKeyMo](https://exkeymo.herokuapp.com/) ([source code](https://github.com/ris58h/exkeymo-web)). It will build the app for you, but it's limited to one layout only.
+**Note**: if you don't want to build the app take a look at [ExKeyMo](https://exkeymo.herokuapp.com/) ([source code](https://github.com/ris58h/exkeymo-web)). It will build the app for you, but it's limited to two layouts only.
 
 # External keyboard customization
 There are several ways to customize an external keyboard on Android:
@@ -10,7 +10,7 @@ There are several ways to customize an external keyboard on Android:
 2. Add/modify [Key Layout Files](https://source.android.com/devices/input/key-layout-files) or [Key Character Map Files](https://source.android.com/devices/input/key-character-map-files) on a device with root access.
 3. Install an application which provides [additional keyboard layouts](https://developer.android.com/reference/android/hardware/input/InputManager#ACTION_QUERY_KEYBOARD_LAYOUTS).
 
-This project aims on the 3-rd option.
+This project aims at the 3-rd option.
 
 # The Way
 1. Clone the project
